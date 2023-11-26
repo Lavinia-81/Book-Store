@@ -1,0 +1,777 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+  <title>Book Store</title>
+  <link rel="stylesheet" href="https://unpkg.com/swiper@7/swiper-bundle.min.css">
+</head>
+<body>
+  <!--header section starts--> 
+  <header class="header">
+    <div class="header-1">
+      <a href="#" class="logo"><i class="fas fa-book"></i>Books store</a>
+      <form action="" class="search-form">
+        <input type="search" name="" placeholder="search here..." id="search-box">
+        <label for="search-box" class="fas fa-search"></label>
+      </form>
+
+      <div class="icons">
+        <div id="search-btn" class="fas fa-search"></div>
+        <a href="#" class="fas fa-heart"></a>
+        <a href="#" class="fas fa-shopping-bag"></a>
+        <div id="login-btn" class="fas fa-user"></div>
+      </div>
+    </div>
+    <div class="header-2">
+      <nav class="navbar">
+         <a href="#home">home</a>
+         <a href="#featured">featured</a>
+         <a href="#arrivals">arrivals</a>
+         <a href="#reviews">reviews</a>
+         <a href="#blogs">blog</a>
+      </nav>
+    </div>
+  </header>
+  <!--header section ends-->
+  <!--!bottom navbar starts--->
+  <nav class="bottom-navbar">
+    <a href="#home" class="fas fa-home"></a>
+    <a href="#featured" class="fas fa-list"></a>
+    <a href="#arrivals" class="fas fa-tags"></a>
+    <a href="#reviews" class="fas fa-comments"></a>
+    <a href="#blogs" class="fas fa-blog"></a>
+ </nav>
+ <!--botton navbar ends-->
+
+ <!--login section starts-->
+ <div class="login-form-container">
+  <div id="close-login-btn" class="fas fa-times"></div>
+  <form action="">
+    <h3>sing in</h3>
+    <span>username</span>
+    <input type="email" name="" class="box" placeholder="Enter your email..." id="">
+    <span>password</span>
+    <input type="email" name="" class="box" placeholder="Enter your password..." id="">
+    <div class="checkbox">
+      <input type="checkbox" name="" id="remember-me">
+      <label for="remember-me">remember me</label>
+    </div>
+    <input type="submit" value="sing in" class="btn">
+    <p>forget password? <a href="#">click here</a></p>
+    <p>don't have an account? <a href="#">create one</a></p>
+  </form>
+ </div>
+ <!--login section ends-->
+
+ <!--home section starts-->
+ <section class="home" id="home">
+   <div class="row">
+    <div class="content">
+      <h3>upon 70% off</h3>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe, iste autem neque quo unde asperiores eius sit vitae totam ducimus! Nesciunt dolores recusandae nam minima quisquam expedita, culpa natus quia.</p>
+      <a href="#" class="btn">shop now</a>
+    </div>
+    <div class="swiper books-slider">
+      <div class="swiper-wrapper">
+      <a href="#" class="swiper-slide"><img src="https://m.media-amazon.com/images/I/71oZ45OrLjL._SY522_.jpg" width="200px" alt=""></a>
+      <a href="#" class="swiper-slide"><img src="https://m.media-amazon.com/images/I/51HKfVMZB8L._SY445_SX342_.jpg" width="200px" alt=""></a>
+      <a href="#" class="swiper-slide"><img src="https://m.media-amazon.com/images/I/41kZKEta8zL.jpg" width="200px" alt=""></a>
+      <a href="#" class="swiper-slide"><img src="https://m.media-amazon.com/images/I/51ObiWAy9PL._SY445_SX342_.jpg" width="200px" alt=""></a>
+      <a href="#" class="swiper-slide"><img src="https://m.media-amazon.com/images/I/41omPINLDWL._SY445_SX342_.jpg" width="200px" alt=""></a>
+      <a href="#" class="swiper-slide"><img src="https://m.media-amazon.com/images/I/41lo6kYaXcL._SY445_SX342_.jpg" width="200px" alt=""></a>
+      <a href="#" class="swiper-slide"><img src="https://m.media-amazon.com/images/I/41fEMQjSWeL._SY445_SX342_.jpg" width="200px" alt=""></a>
+      <a href="#" class="swiper-slide"><img src="https://m.media-amazon.com/images/I/81u7D0iNmlL._SY522_.jpg" width="200px" alt=""></a>
+    </div>
+    <img src="#" class="stand" alt="">
+    </div>
+   </div>
+ </section>
+ <!--home section ends-->
+
+ <!--icons section starts-->
+ <section class="icons-container">
+
+  <div class="icons">
+    <i class="fas fa-paper-plane"></i>
+    <div class="content">
+    <h3>free shipping</h3>
+    <p>order over £100</p>
+  </div>
+</div>
+
+<div class="icons">
+  <i class="fas fa-lock"></i>
+  <div class="content">
+  <h3>secure payment</h3>
+  <p>100% secure payment</p>
+</div>
+</div>
+
+<div class="icons">
+  <i class="fas fa-redo-alt"></i>
+  <div class="content">
+  <h3>easy returns</h3>
+  <p>10 days returns</p>
+</div>
+</div>
+
+<div class="icons">
+  <i class="fas fa-headset"></i>
+  <div class="content">
+  <h3>24/7 support</h3>
+  <p>call us anytime</p>
+</div>
+</div>
+ </section>
+ <!--icons section ends-->
+
+ <!--featured section starts-->
+ <section class="featured" id="featured">
+  <h1 class="heading"><span>featured books</span></h1>
+  <div class="swiper featured-slider">
+    <div class="swiper-wrapper">
+
+      <div class="swiper-slide box">
+        <div class="icons">
+          <a href="#" class="fas fa-search"></a>
+          <a href="#" class="fas fa-heart"></a>
+          <a href="#" class="fas fa-eye"></a>
+        </div>
+        <div class="image">
+          <img src="https://m.media-amazon.com/images/I/81n1+o12AHL._SY522_.jpg" alt="">
+        </div>
+        <div class="content">
+          <h3>featured books</h3>
+          <div class="price">£15.99<span>£20.99</span></div>
+          <a href="#" class="btn">add to cart</a>
+        </div>
+      </div>
+
+      <div class="swiper-slide box">
+        <div class="icons">
+          <a href="#" class="fas fa-search"></a>
+          <a href="#" class="fas fa-heart"></a>
+          <a href="#" class="fas fa-eye"></a>
+        </div>
+        <div class="image">
+          <img src="https://m.media-amazon.com/images/I/8143qzQAuxL._SY522_.jpg" alt="">
+        </div>
+        <div class="content">
+          <h3>featured books</h3>
+          <div class="price">£15.99<span>£20.99</span></div>
+          <a href="#" class="btn">add to cart</a>
+        </div>
+      </div>
+
+      <div class="swiper-slide box">
+        <div class="icons">
+          <a href="#" class="fas fa-search"></a>
+          <a href="#" class="fas fa-heart"></a>
+          <a href="#" class="fas fa-eye"></a>
+        </div>
+        <div class="image">
+          <img src="https://m.media-amazon.com/images/I/71kVbQ4a9OL._SY522_.jpg" alt="">
+        </div>
+        <div class="content">
+          <h3>featured books</h3>
+          <div class="price">£15.99<span>£20.99</span></div>
+          <a href="#" class="btn">add to cart</a>
+        </div>
+      </div>
+
+      <div class="swiper-slide box">
+        <div class="icons">
+          <a href="#" class="fas fa-search"></a>
+          <a href="#" class="fas fa-heart"></a>
+          <a href="#" class="fas fa-eye"></a>
+        </div>
+        <div class="image">
+          <img src="https://m.media-amazon.com/images/I/519+oRqYKnL._SY522_.jpg" alt="">
+        </div>
+        <div class="content">
+          <h3>featured books</h3>
+          <div class="price">£15.99<span>£20.99</span></div>
+          <a href="#" class="btn">add to cart</a>
+        </div>
+      </div>
+
+      <div class="swiper-slide box">
+        <div class="icons">
+          <a href="#" class="fas fa-search"></a>
+          <a href="#" class="fas fa-heart"></a>
+          <a href="#" class="fas fa-eye"></a>
+        </div>
+        <div class="image">
+          <img src="https://m.media-amazon.com/images/I/61mIq2iJUXL._SY522_.jpg" alt="">
+        </div>
+        <div class="content">
+          <h3>featured books</h3>
+          <div class="price">£15.99<span>£20.99</span></div>
+          <a href="#" class="btn">add to cart</a>
+        </div>
+      </div>
+
+      <div class="swiper-slide box">
+        <div class="icons">
+          <a href="#" class="fas fa-search"></a>
+          <a href="#" class="fas fa-heart"></a>
+          <a href="#" class="fas fa-eye"></a>
+        </div>
+        <div class="image">
+          <img src="https://m.media-amazon.com/images/I/41-z02ZLBOL._SY445_SX342_.jpg" alt="">
+        </div>
+        <div class="content">
+          <h3>featured books</h3>
+          <div class="price">£15.99<span>£20.99</span></div>
+          <a href="#" class="btn">add to cart</a>
+        </div>
+      </div>
+
+      <div class="swiper-slide box">
+        <div class="icons">
+          <a href="#" class="fas fa-search"></a>
+          <a href="#" class="fas fa-heart"></a>
+          <a href="#" class="fas fa-eye"></a>
+        </div>
+        <div class="image">
+          <img src="https://m.media-amazon.com/images/I/81Sdk02bg+L._SY522_.jpg" alt="">
+        </div>
+        <div class="content">
+          <h3>featured books</h3>
+          <div class="price">£15.99<span>£20.99</span></div>
+          <a href="#" class="btn">add to cart</a>
+        </div>
+      </div>
+
+      <div class="swiper-slide box">
+        <div class="icons">
+          <a href="#" class="fas fa-search"></a>
+          <a href="#" class="fas fa-heart"></a>
+          <a href="#" class="fas fa-eye"></a>
+        </div>
+        <div class="image">
+          <img src="https://m.media-amazon.com/images/I/31ohCOuhGTL._SY445_SX342_.jpg" alt="">
+        </div>
+        <div class="content">
+          <h3>featured books</h3>
+          <div class="price">£15.99<span>£20.99</span></div>
+          <a href="#" class="btn">add to cart</a>
+        </div>
+      </div>
+
+      <div class="swiper-slide box">
+        <div class="icons">
+          <a href="#" class="fas fa-search"></a>
+          <a href="#" class="fas fa-heart"></a>
+          <a href="#" class="fas fa-eye"></a>
+        </div>
+        <div class="image">
+          <img src="https://m.media-amazon.com/images/I/51BOP47JRoL._SX342_SY445_.jpg" alt="">
+        </div>
+        <div class="content">
+          <h3>featured books</h3>
+          <div class="price">£15.99<span>£20.99</span></div>
+          <a href="#" class="btn">add to cart</a>
+        </div>
+      </div>
+
+      <div class="swiper-slide box">
+        <div class="icons">
+          <a href="#" class="fas fa-search"></a>
+          <a href="#" class="fas fa-heart"></a>
+          <a href="#" class="fas fa-eye"></a>
+        </div>
+        <div class="image">
+          <img src="https://m.media-amazon.com/images/I/412RSEDyfuL._SY445_SX342_.jpg" alt="">
+        </div>
+        <div class="content">
+          <h3>featured books</h3>
+          <div class="price">£15.99<span>£20.99</span></div>
+          <a href="#" class="btn">add to cart</a>
+        </div>
+      </div>
+
+    </div>
+  </div>
+ </section>
+ <!--featured section ends-->
+
+ <!--newsletter section starts-->
+ <section class="newsletter">
+  <form action="">
+    
+    <h3>subscribe for latest updates
+      <input type="email" name="" placeholder="enter your email" id="" class="box">
+      <input type="submit" value="subscribe" class="btn">
+    </h3>
+  </form>
+ </section>
+ <!--newsletter section ends-->
+
+ <!--arrivals section starts-->
+ <section class="arrivals" id="arrivals">
+  <h1 class="heading"><span>new arrivals</span></h1>
+
+
+        <div class="swiper arrivals-slider">
+          <div class="swiper-wrapper">
+      <a href="#" class="swiper-slide box">
+        <div class="image">
+          <img src="https://m.media-amazon.com/images/I/41q9BrAIHlL._SY445_SX342_.jpg" alt="">
+        </div>
+        <div class="content">
+          <h3>new arrivals</h3>
+          <div class="price">£15.99<span> £20.99</span></div>
+          <div class="stars">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star-half-alt"></i>
+          </div>
+        </div>
+      </a>
+
+      <a href="#" class="swiper-slide box">
+        <div class="image">
+          <img src="https://m.media-amazon.com/images/I/41PBFet+QOL._SY445_SX342_.jpg" alt="">
+        </div>
+        <div class="content">
+          <h3>new arrivals</h3>
+          <div class="price">£15.99<span> £20.99</span></div>
+          <div class="stars">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star-half-alt"></i>
+          </div>
+        </div>
+      </a>
+
+      <a href="#" class="swiper-slide box">
+        <div class="image">
+          <img src="https://m.media-amazon.com/images/I/41S1PygRkCL._SY445_SX342_.jpg" alt="">
+        </div>
+        <div class="content">
+          <h3>new arrivals</h3>
+          <div class="price">£15.99<span> £20.99</span></div>
+          <div class="stars">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star-half-alt"></i>
+          </div>
+        </div>
+      </a>
+
+      <a href="#" class="swiper-slide box">
+        <div class="image">
+          <img src="https://m.media-amazon.com/images/I/81aeMN5ECTL._SY522_.jpg" alt="">
+        </div>
+        <div class="content">
+          <h3>new arrivals</h3>
+          <div class="price">£15.99<span> £20.99</span></div>
+          <div class="stars">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star-half-alt"></i>
+          </div>
+        </div>
+      </a>
+
+      <a href="#" class="swiper-slide box">
+        <div class="image">
+          <img src="https://m.media-amazon.com/images/I/41AQQ0+4qTL._SY445_SX342_.jpg" alt="">
+        </div>
+        <div class="content">
+          <h3>new arrivals</h3>
+          <div class="price">£15.99<span> £20.99</span></div>
+          <div class="stars">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star-half-alt"></i>
+          </div>
+        </div>
+      </a>
+
+
+      <a href="#" class="swiper-slide box">
+        <div class="image">
+          <img src="https://m.media-amazon.com/images/I/51wV2udQ2OL._SY445_SX342_.jpg" alt="">
+        </div>
+        <div class="content">
+          <h3>new arrivals</h3>
+          <div class="price">£15.99<span> £20.99</span></div>
+          <div class="stars">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star-half-alt"></i>
+          </div>
+        </div>
+      </a>
+    </div>
+  </div>
+
+      <div class="swiper arrivals-slider">
+        <div class="swiper-wrapper">
+      <a href="#" class="swiper-slide box">
+        <div class="image">
+          <img src="https://m.media-amazon.com/images/I/51hqtAkR5oL.jpg" alt="">
+        </div>
+        <div class="content">
+          <h3>new arrivals</h3>
+          <div class="price">£15.99<span> £20.99</span></div>
+          <div class="stars">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star-half-alt"></i>
+          </div>
+        </div>
+      </a>
+      
+
+      <a href="#" class="swiper-slide box">
+        <div class="image">
+          <img src="https://m.media-amazon.com/images/I/41dhHYyP6UL._SY445_SX342_.jpg" alt="">
+        </div>
+        <div class="content">
+          <h3>new arrivals</h3>
+          <div class="price">£15.99<span> £20.99</span></div>
+          <div class="stars">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star-half-alt"></i>
+          </div>
+        </div>
+      </a>
+
+      <a href="#" class="swiper-slide box">
+        <div class="image">
+          <img src="https://m.media-amazon.com/images/I/A1pdaheserL._SY522_.jpg" alt="">
+        </div>
+        <div class="content">
+          <h3>new arrivals</h3>
+          <div class="price">£15.99<span> £20.99</span></div>
+          <div class="stars">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star-half-alt"></i>
+          </div>
+        </div>
+      </a>
+
+      <a href="#" class="swiper-slide box">
+        <div class="image">
+          <img src="https://m.media-amazon.com/images/I/41SHBdbiYlL._SY445_SX342_.jpg" alt="">
+        </div>
+        <div class="content">
+          <h3>new arrivals</h3>
+          <div class="price">£15.99<span> £20.99</span></div>
+          <div class="stars">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star-half-alt"></i>
+          </div>
+        </div>
+      </a>
+
+      <a href="#" class="swiper-slide box">
+        <div class="image">
+          <img src="https://m.media-amazon.com/images/I/51LhNMlYM0L._SY445_SX342_.jpg" alt="">
+        </div>
+        <div class="content">
+          <h3>new arrivals</h3>
+          <div class="price">£15.99<span> £20.99</span></div>
+          <div class="stars">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star-half-alt"></i>
+          </div>
+        </div>
+      </a>
+
+      <a href="#" class="swiper-slide box">
+        <div class="image">
+          <img src="https://m.media-amazon.com/images/I/41hKg3K+ADL._SY445_SX342_.jpg" alt="">
+        </div>
+        <div class="content">
+          <h3>new arrivals</h3>
+          <div class="price">£15.99<span> £20.99</span></div>
+          <div class="stars">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star-half-alt"></i>
+          </div>
+        </div>
+      </a>
+    </div>
+  </div>
+ </section>
+ <!--arrivals section ends-->
+
+ <!--deal section starts-->
+ <section class="deal">
+  <div class="content">
+    <h3>deal of the day</h3>
+    <h1>upon 50% off</h1>
+    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Laboriosam earum inventore sint accusantium consectetur distinctio expedita aut placeat voluptate vitae totam repellendus dolorum, possimus cum nam consequuntur maiores provident. Temporibus?</p>
+    <a href="#" class="btn">shop now</a>
+  </div>
+  <div class="image">
+    <img src="https://i.pinimg.com/originals/99/7b/6f/997b6fdead343fd941e1716e5f768080.jpg" width="300px" alt="">
+  </div>
+ </section>
+ <!--deal section ends-->
+
+ <!--reviews section starts-->
+ <section class="reviews" id="reviews">
+  <h1 class="heading"><span>client's reviews</span></h1>
+  <div class="swiper reviews-slider">
+    <div class="swiper-wrapper">
+
+      <div class="swiper-slide  box">
+          <img src="https://th.bing.com/th/id/OIP.4jbrzXyY0Lpq1UETZ6I5TQHaKk?pid=ImgDet&w=198&h=283&c=7&dpr=1.5" alt="">
+          <h3><span>john deo</span></h3>
+          <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Error fugit exercitationem saepe animi officiis, numquam libero cum sed, aut ab, eum totam itaque veritatis quam aspernatur autem. Natus, nemo eligendi.</p>
+          <div class="stars">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star-half-alt"></i>
+          </div>
+     </div>
+
+      <div class="swiper-slide box">
+          <img src="https://th.bing.com/th/id/OIP.638kYScA34H9dn05YYbOHgHaKD?pid=ImgDet&w=198&h=313&c=7&dpr=1.5" alt="">
+          <h3>john deo</h3>
+          <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Error fugit exercitationem saepe animi officiis, numquam libero cum sed, aut ab, eum totam itaque veritatis quam aspernatur autem. Natus, nemo eligendi.</p>
+          <div class="stars">
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star-half-alt"></i>
+          </div>
+     </div>
+
+      <div class="swiper-slide box">
+          <img src="https://th.bing.com/th/id/OIP.0Gl2EPOyx3wsBzbeIco6GgHaKB?pid=ImgDet&w=198&h=267&c=7&dpr=1.5" alt="">
+          <h3>john deo</h3>
+          <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Error fugit exercitationem saepe animi officiis, numquam libero cum sed, aut ab, eum totam itaque veritatis quam aspernatur autem. Natus, nemo eligendi.</p>
+          <div class="stars">
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star-half-alt"></i>
+          </div>
+     </div>
+
+      <div class="swiper-slide box">
+          <img src="https://th.bing.com/th/id/OIP.SkdFjX6umswBDKwv5QIHngHaKD?rs=1&pid=ImgDetMain" alt="">
+          <h3><span>john deo</span></h3>
+          <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Error fugit exercitationem saepe animi officiis, numquam libero cum sed, aut ab, eum totam itaque veritatis quam aspernatur autem. Natus, nemo eligendi.</p>
+          <div class="stars">
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star-half-alt"></i>
+          </div>
+     </div>
+
+      <div class="swiper-slide box">
+        <img src="https://th.bing.com/th/id/OIP.5x3X1YribcV60Gkr_81vvAHaJC?rs=1&pid=ImgDetMain" alt="">
+        <h3>john deo</h3>
+        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Error fugit exercitationem saepe animi officiis, numquam libero cum sed, aut ab, eum totam itaque veritatis quam aspernatur autem. Natus, nemo eligendi.</p>
+        <div class="stars">
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star-half-alt"></i>
+        </div>
+     </div>
+
+      <div class="swiper-slide box">
+      <img src="https://th.bing.com/th/id/OIP.odwmBwIVbKYjlKfrMkBplAHaKD?rs=1&pid=ImgDetMain" alt="">
+      <h3>john deo</h3>
+      <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Error fugit exercitationem saepe animi officiis, numquam libero cum sed, aut ab, eum totam itaque veritatis quam aspernatur autem. Natus, nemo eligendi.</p>
+      <div class="stars">
+        <i class="fas fa-star"></i>
+        <i class="fas fa-star"></i>
+        <i class="fas fa-star"></i>
+        <i class="fas fa-star"></i>
+        <i class="fas fa-star-half-alt"></i>
+      </div>
+     </div>
+
+    </div>
+  </div>
+ </section>
+ <!--reviews section ends-->
+
+ <!--blogs section starts-->
+ <section class="blogs" id="blogs">
+  <h1 class="heading"><span>our blog</span></h1>
+  <div class="swiper blogs-slider">
+    <div class="swiper-wrapper">
+
+      <div class="swiper-slide box">
+        <div class="image">
+          <img src="https://media.istockphoto.com/id/1480066536/photo/two-female-students-exchanging-books-in-a-school-library.jpg?s=1024x1024&w=is&k=20&c=9pFfAdt1l2_Mn_rL-Nf14PBgNFDYXvaOzMdl-vpd0Hk=" width="250px" alt="">
+        </div>
+        <div class="content">
+          <h3>blog title goes here</h3>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Et provident reiciendis ullam dolores iste delectus ad id commodi. Cumque, voluptatem. Molestias, voluptate debitis repellendus quo animi quos voluptates nemo quaerat?</p>
+          <a href="#" class="btn">read more</a>
+        </div>
+      </div>
+
+      <div class="swiper-slide box">
+        <div class="image">
+          <img src="https://media.istockphoto.com/id/175428805/photo/librarians-helping-people-check-out-books-in-the-library.jpg?s=1024x1024&w=is&k=20&c=4hwD2Y9-PhsYD-HFrXRt2YYS0xnKKLozcEUzaHyHobg=" width="250px" alt="">
+        </div>
+        <div class="content">
+          <h3>blog title goes here</h3>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Et provident reiciendis ullam dolores iste delectus ad id commodi. Cumque, voluptatem. Molestias, voluptate debitis repellendus quo animi quos voluptates nemo quaerat?</p>
+          <a href="#" class="btn">read more</a>
+        </div>
+      </div>
+
+      <div class="swiper-slide box">
+        <div class="image">
+          <img src="https://media.istockphoto.com/id/471135843/photo/college-student-with-books.jpg?s=1024x1024&w=is&k=20&c=i0vLzLoV02BU9XPx1sk7aEbVE5vvyztqC5KPphHa4B4=" width="250px" alt="">
+        </div>
+        <div class="content">
+          <h3>blog title goes here</h3>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Et provident reiciendis ullam dolores iste delectus ad id commodi. Cumque, voluptatem. Molestias, voluptate debitis repellendus quo animi quos voluptates nemo quaerat?</p>
+          <a href="#" class="btn">read more</a>
+        </div>
+      </div>
+
+      <div class="swiper-slide box">
+        <div class="image">
+          <img src="https://media.istockphoto.com/id/1135941588/photo/woman-college-student-working-at-library-holds-bunch-of-books-in-hands-looking-smart.jpg?s=1024x1024&w=is&k=20&c=Btox0YgaWU0C2WkVenlPBKAE5j_tjtACVFoTe8uvW6o=" width="250px" alt="">
+        </div>
+        <div class="content">
+          <h3>blog title goes here</h3>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Et provident reiciendis ullam dolores iste delectus ad id commodi. Cumque, voluptatem. Molestias, voluptate debitis repellendus quo animi quos voluptates nemo quaerat?</p>
+          <a href="#" class="btn">read more</a>
+        </div>
+      </div>
+
+      <div class="swiper-slide box">
+        <div class="image">
+          <img src="https://media.istockphoto.com/id/509477448/photo/librarian-helping-elementary-age-little-girl-with-book-selection.jpg?s=1024x1024&w=is&k=20&c=xCpAhaoZTdbtobJyrrztkgo18oLnQAw4IuUMr6BQ1bM=" width="250px" alt="">
+        </div>
+        <div class="content">
+          <h3>blog title goes here</h3>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Et provident reiciendis ullam dolores iste delectus ad id commodi. Cumque, voluptatem. Molestias, voluptate debitis repellendus quo animi quos voluptates nemo quaerat?</p>
+          <a href="#" class="btn">read more</a>
+        </div>
+      </div>
+
+      <div class="swiper-slide box">
+        <div class="image">
+          <img src="https://media.istockphoto.com/id/1495390353/photo/woman-holding-a-stack-of-large-books-with-a-large-bookcase-full-of-books-on-her-back.jpg?s=1024x1024&w=is&k=20&c=Y91uq2b5p-6U5sAmS4mEe2efqnu0oTtytF_dIr7cLRE=" width="250px" alt="">
+        </div>
+        <div class="content">
+          <h3>blog title goes here</h3>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Et provident reiciendis ullam dolores iste delectus ad id commodi. Cumque, voluptatem. Molestias, voluptate debitis repellendus quo animi quos voluptates nemo quaerat?</p>
+          <a href="#" class="btn">read more</a>
+        </div>
+      </div>
+    </div>
+  </div>
+ </section>
+ <!--blogs section ends-->
+
+ <!--footer section starts-->
+ <section class="footer">
+  <div class="box-container">
+
+    <div class="box">
+      <h3>choose location</h3>
+      <a href="#"><i class="fas fa-map-marker-alt"></i> usa</a>
+      <a href="#"><i class="fas fa-map-marker-alt"></i> france</a>
+      <a href="#"><i class="fas fa-map-marker-alt"></i> russia</a>
+      <a href="#"><i class="fas fa-map-marker-alt"></i> japan</a>
+      <a href="#"><i class="fas fa-map-marker-alt"></i> germany</a>
+    </div>
+
+    <div class="box">
+      <h3>quick links</h3>
+      <a href="#"><i class="fas fa-arrow-right"></i> home</a>
+      <a href="#"><i class="fas fa-arrow-right"></i> featured</a>
+      <a href="#"><i class="fas fa-arrow-right"></i> arrivals</a>
+      <a href="#"><i class="fas fa-arrow-right"></i> reviews</a>
+      <a href="#"><i class="fas fa-arrow-right"></i> blog</a>
+    </div>
+
+    <div class="box">
+      <h3>extra links</h3>
+      <a href="#"><i class="fas fa-arrow-right"></i> account info</a>
+      <a href="#"><i class="fas fa-arrow-right"></i> ordered items</a>
+      <a href="#"><i class="fas fa-arrow-right"></i> privacy policy</a>
+      <a href="#"><i class="fas fa-arrow-right"></i> payment method</a>
+      <a href="#"><i class="fas fa-arrow-right"></i> our services</a>
+    </div>
+
+    <div class="box">
+      <h3>contact info</h3>
+      <a href="#"><i class="fas fa-phone"></i> +44 123 456 7890</a>
+      <a href="#"><i class="fas fa-phone"></i> +44 111 222 3333</a>
+      <a href="#"><i class="fas fa-envelope"></i> examplemail@gmail.com</a>
+      <img src="https://m.media-amazon.com/images/I/A18jctxQOIL._AC_SX679_.jpg" width="100%" class="map" alt="">
+    </div>
+    </div>
+
+    <div class="share">
+      <a href="#" class="fab fa-facebook-f"></a>
+      <a href="#" class="fab fa-twitter"></a>
+      <a href="#" class="fab fa-instagram"></a>
+      <a href="#" class="fab fa-linkedin"></a>
+      <a href="#" class="fab fa-pinterest"></a>
+    </div>
+
+    <div class="credit">create by <span>DML</span> | all right reserved! </div>
+  
+ </section>
+ <!--footer section ends-->
+
+ <!--loader container-->
+ <div class="loader-container">
+  <img src="https://framebyframe.giphy.com/img/loading_book_fbf.gif" alt="">
+ </div>
+
+ <!--<div class="swiper-button-next"></div>
+ <div class="swiper-button-prev"></div>-->
+<script src="https://unpkg.com/swiper@7/swiper-bundle.min.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
