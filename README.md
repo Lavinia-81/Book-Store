@@ -30,5 +30,5 @@ Welcome to the **Books-Online-Store** repository! This project contains the code
 To get started with this project, clone the repository and open the `index.html` file in your browser. Explore the code in the `html`, `css`, and `js` directories to understand how each part contributes to the overall functionality.
 
 ```bash
-git clone https://github.com/yourusername/book-store.git
-cd book-store
+git clone https://github.com/Lavinia-81/Books-0nline.git
+cd Books-Online
