@@ -103,13 +103,11 @@ Or simply double‑click the file.
 
 ## Purpose of This Project
 Books‑Online represents one of your early front‑end design projects.
-It helped you understand:
+It helped to understand:
 - how to structure multi‑section websites
 - how to style components consistently
 - how to build responsive layouts
 - how to add basic interactivity with JavaScript
-
-It remains in your portfolio as a milestone in your progression from beginner to advanced front‑end and full‑stack development.
 
 ---
 
